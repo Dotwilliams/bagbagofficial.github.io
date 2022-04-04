@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BAGBAG | Cart</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- style -->
+
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@100;200;400;500;700&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font  -->
+
+    <!-- FontAwesome cnd -->
+    <script
+      src="https://kit.fontawesome.com/ee5203a190.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- FontAwesome cnd -->
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap CSS -->
+  </head>
+  <body>
+    <!-- section 1 -->
+    <Section id="home">
+    <!-- setting-up PRELOADER (start)-->
+    <div class="loader">
+      <img src="machine load-gif.gif" width="85px alt="" />
+    </div>
+    <!-- setting-up PRELOADER (end)-->
+
+
+    <!-- SECTION: Navbar -->
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <!-- nav-logo -->
+          <div class="logo" style="border: 5px solid #3CB371; border-radius: 10px;">
+            <a href="index.html" class="logo-link" style="text-decoration: none;">
+              <h3 class="logo-head" style="color: black; font-family: cursive;">.Bag<span class="logospan" style="color: #006400;">Bag</span></h3>
+            </a>
+          </div>
+
+          <!-- navlinks -->
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="bag-category/slings.html">Products</a></li>
+              <li><a href="Login page/login.html">Account</a></li>
+            </ul>
+          </nav>
+          <a href="cart.html">
+            <img src="bag-images/cart.png" class="shoppingCart" alt="" width="30px" height="30px" />
+          </a>
+
+          <img
+            src="bag-images/menu.png"
+            alt=""
+            class="menu-icon"
+            onclick="menuToggle()"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- headfont (end)-->
+
+    <!-- Navbar (ends) -->
+  </Section>
+  <!-- ------------------------------------------------------------------------------------- -->
+
+
+      <!-- ----------- cart item details ----------------  -->
+      <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="bag-images/GettyImages-1290089282.webp" alt="">
+                        <div>
+                          <p>Purple bag</p>
+                          <small>
+                             Price: $50.00
+                          </small>
+                          <br>
+                          <a href="">Remove</a>
+                        </div>
+                       
+                    </div>
+                </td>
+                <td>
+                    <input type="number" value="1">
+                </td>
+                <td>
+                    $50.00
+                </td>
+            </tr>
+
+            <!-- 2nd row -->
+            <tr>
+              <td>
+                  <div class="cart-info">
+                      <img src="bag-images/WhatsAppImage2020-08-03at12.29.57PM_5000x.webp" alt="">
+                      <div>
+                        <p>Fendi set</p>
+                        <small>
+                           Price: $105.00
+                        </small>
+                        <br>
+                        <a href="">Remove</a>
+                      </div>
+                     
+                  </div>
+              </td>
+              <td>
+                  <input type="number" value="1">
+              </td>
+              <td>
+                  $105.00
+              </td>
+          </tr>
+
+          <!-- 3rd row -->
+          <tr>
+              <td>
+                  <div class="cart-info">
+                      <img src="bag-images/bag-like-purse.jpg" alt="">
+                      <div>
+                        <p>Brown leather</p>
+                        <small>
+                           Price: $45.00
+                        </small>
+                        <br>
+                        <a href="">Remove</a>
+                      </div>
+                     
+                  </div>
+              </td>
+              <td>
+                  <input type="number" value="1">
+              </td>
+              <td>
+                  $45.00
+              </td>
+          </tr>
+        </table>
+        
+        <br><br><br>
+        <div class="total-price">
+            <table>
+              <tr>
+                  <td>Sub-Total</td>
+                  <td>$200.00</td>
+              </tr>
+
+                <tr>
+                    <td>Tax</td>
+                    <td>$30.00</td>
+                </tr>
+
+                <tr>
+                  <td>Total</td>
+                  <td>$230.00</td>
+              </tr>
+            </table>
+
+        </div>
+        <a href="#product"><button class="cartButton">Proceed To Payment</button></a>
+
+    </div>
+
+
+
+
+
+     <!-- section 4 -->
+     <section id="footer">
+         <!-------------- footer---------------- -->
+</div>
+<footer>
+    <div class="footerLeft">
+        <div class="footerMenu">
+            <h1 class="fMenuTitle" style="color: white;">About Us</h1>
+            <ul class="fList" style="color: whitesmoke;">
+                <li class="fListItem">Company</li>
+                <li class="fListItem">Contact</li>
+                <li class="fListItem">Careers</li>
+                <li class="fListItem">Affiliates</li>
+                <li class="fListItem">Stores</li>
+            </ul>
+        </div>
+        <div class="footerMenu">
+            <h1 class="fMenuTitle" style="color: white;">Useful Links</h1>
+            <ul class="fList" style="color: whitesmoke;">
+                <li class="fListItem">Support</li>
+                <li class="fListItem">Refund</li>
+                <li class="fListItem">FAQ</li>
+                <li class="fListItem">Feedback</li>
+                <li class="fListItem">Stories</li>
+            </ul>
+        </div>
+        <div class="footerMenu">
+            <h1 class="fMenuTitle" style="color: white;">Products</h1>
+            <ul class="fList" style="color: whitesmoke;">
+                <li class="fListItem">GUCCI</li>
+                <li class="fListItem">CHANEL</li>
+                <li class="fListItem">LOUIS-VUITTON</li>
+                <li class="fListItem">D&G</li>
+                <li class="fListItem">PRADA</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footerRight">
+        <div class="footerRightMenu">
+            <h1 class="fMenuTitle" style="color: white;">Subscribe to our newsletter</h1>
+            <div class="fMail">
+                <input type="text" class="fInput">
+                <button class="fButton">Join!</button>
+            </div>
+        </div>
+        <div class="footerRightMenu">
+            <h1 class="fMenuTitle" style="color: white;">Contact Us</h1>
+            <div class="fIcons">
+                <img src="bag-images/facebook.png" alt="" class="fIcon">
+                <img src="bag-images/whatsapp.png" alt="" class="fIcon">
+                <img src="bag-images/instagram.png" alt="" class="fIcon">
+                <img src="bag-images/twitter.png" alt="" class="fIcon">
+            </div>
+        </div>
+        <div class="footerRightMenu">
+          <hr style="color: whitesmoke; height: 4px;">
+            <span class="copyright" style="color: white;">copyright 2022 Aptech E-project.</span>
+        </div>
+    </div>
+</footer>
+     </section>
+    
+
+    <!-- my Script.js -->
+    <script src="app.js"></script>
+    <!-- my Script.js -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

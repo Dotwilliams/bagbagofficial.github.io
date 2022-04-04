@@ -1,0 +1,26 @@
+body {
+  width: 100vw;
+  /* background: ; */
+}
+.nav-tabs {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.nav-item .nav-link {
+  color: #111;
+}
+.nav-item .nav-link:hover {
+  color: #3cb371;
+}
+#search {
+  width: 400px;
+  margin-top: 60px;
+  margin-left: 479px;
+  border-radius: 10px;
+}
+.card {
+  width: 321px;
+  margin-left: 50px;
+  margin-top: 20px;
+}

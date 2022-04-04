@@ -1,0 +1,145 @@
+body {
+  background-color: #3cb371;
+  font-family: "lato", sans-serif;
+}
+
+.js-tilt {
+  position: absolute;
+  top: 80px;
+  left: 50px;
+}
+
+.page {
+  margin-top: 40px !important;
+  position: relative;
+  border: 2px solid transparent;
+  background-color: #fff;
+  border-radius: 30px;
+  width: 70vw;
+  height: 90vh;
+  margin: auto;
+}
+
+.tilt {
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: 0.7s;
+}
+
+.main {
+  background-color: #ffffff;
+  width: 400px;
+  height: 400px;
+  margin: 7em auto;
+  border-radius: 1.5em;
+  box-shadow: 0px 11px 35px 5px rgba(0, 0, 0, 0.14);
+  position: absolute;
+  right: 50px;
+}
+
+.sign {
+  padding-top: 40px;
+  color: #3cb371;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.un {
+  width: 76%;
+  color: rgb(38, 50, 56);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgba(136, 126, 126, 0.04);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-bottom: 50px;
+  margin-left: 46px;
+  text-align: center;
+  margin-bottom: 27px;
+}
+
+form.form1 {
+  padding-top: 40px;
+}
+
+.pass {
+  width: 76%;
+  color: rgb(38, 50, 56);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgba(136, 126, 126, 0.04);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-bottom: 50px;
+  margin-left: 46px;
+  text-align: center;
+  margin-bottom: 27px;
+}
+
+.un:focus,
+.pass:focus {
+  border: 2px solid rgba(0, 0, 0, 0.18) !important;
+}
+
+.submit {
+  cursor: pointer;
+  border-radius: 5em;
+  color: #fff;
+  background: linear-gradient(to left, #dadd98, #006400);
+  border: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 35%;
+  font-size: 13px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+.submit:hover {
+  color: #dadd98;
+  background: #3cb371;
+}
+
+.forgot {
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  color: #006400;
+  padding-top: 20px;
+}
+
+.remember {
+  font-size: 20px 0;
+  padding: 10px 75px;
+  color: #3cb371;
+  margin-top: 20px;
+}
+
+a {
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  color: #006400;
+  text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+  .js-tilt {
+    display: none;
+  }
+  .page {
+    height: 80vh;
+  }
+  .main {
+    width: 350px;
+    height: 390px;
+    left: 10px;
+    bottom: -105px;
+  }
+}
